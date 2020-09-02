@@ -1,0 +1,10 @@
+<main>
+  <h1>POC WebSockets</h1>
+  <button type="button" (click)="setupConnection()">Connect</button>
+  <hr />
+  <button type="button" (click)="triggerMessage()">Trigger message</button>
+
+  <ul>
+    <li *ngFor="let message of messages">{{ message }}</li>
+  </ul>
+</main>
