@@ -6,6 +6,7 @@ WebSockets proof of concept
 ### Frontend
 ```bash
 cd web
+yarn # Install dependencies
 yarn start
 ```
 
