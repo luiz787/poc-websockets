@@ -12,6 +12,8 @@ yarn start
 
 ### Backend
 
+JAVA_HOME must be set to Java 11 installation.
+
 ```bash
 cd server
 mvn spring-boot:run
